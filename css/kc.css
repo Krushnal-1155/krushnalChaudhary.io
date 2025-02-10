@@ -1,0 +1,54 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #333;
+  }
+  
+  .navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .menu a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('images/bg_1.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  .hero .content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #typing-animation {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    animation: typing 3s steps(20, end) infinite;
+  }
+  
+  /* Typing Animation */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
